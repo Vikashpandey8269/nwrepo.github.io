@@ -1,0 +1,47 @@
+<h1>difference between let var and const :-</h1>
+
+
+<h4>1.scope let and const is block scope and  var is global and function scope .</h4>
+<h4>2. we  can Declare let  and var without Initialization(let a,var a)
+    but we have to Initialize const in one single line (const a=34) </h4>
+
+<p>a.Initialization:- declare and assign a value  is called Initialization
+</p>
+<h3>ex:- let a =45;</h3>
+
+<p>b.Declaration:- declare a value is called Declaration</p>
+
+<h3>ex:- let a;</h3>
+
+<h4>3. we can Re-declare and update value of var (var a=30, var a =20) <br>
+
+    we can not Re-declare but we can update value of let(let b  = 40, b=20)  <br>
+    we can not Re-declare and also we can't update value of const(let c=30 we cant not change it ) <br></h4>
+
+<p>a.Re-declaration:- declare already declare value</p>
+<h3>
+    ex:- <br>
+var a=30;<br>
+var b=40 <br>
+</h3>
+
+<p>b.Update:- re-update the Initialize value</p>
+<h3>
+    ex:- <br>
+    let b=30;  <br>
+    a=40; <br>
+
+</h3>
+
+
+<h4>4. All three are hoisted </h4>
+
+
+<h1>Hoisting</h1>
+
+<h4>is  something which moves all the Declaration on the top of the scope  because of which i can access function and variable before its Declaration.</h4>
+<h3>console.log(a) <br>
+    var a =10;
+</h3>
+<h4>Note:- it doesn't moves its Initialization on top thats by it is giving undefined</h4>
+
