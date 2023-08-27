@@ -7,7 +7,7 @@ i used a array name of color which contains multiple colors with the help of doc
 and changeColor is used to give functionality to my project
 
 ### functionality
-in this project  we cxan change color as well as shape of our object
+in this project  we can change color as well as shape of our object
 
 
 
