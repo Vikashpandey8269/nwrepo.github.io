@@ -14,10 +14,10 @@ var color = [
   var index = 0;
   var isTriangle = false;
   
-  var cShape = document.getElementById("change-shape");
+  var colorS = document.getElementById("change-shape");
   var cColor = document.getElementById("change-color");
   
-  cShape.addEventListener("click", changeShape);
+  colorS.addEventListener("click", changeShape);
   cColor.addEventListener("click", changeColor);
   
   function changeColor() {
