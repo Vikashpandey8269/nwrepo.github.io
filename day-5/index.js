@@ -27,7 +27,7 @@ const obj={
      // methods of object
 
 // to find all keys in object
-   //  c=console.log(Object.keys(obj))
+//c=console.log(Object.keys(obj))
 
 
      //c=console.log(Object.keys(obj.hobby));
