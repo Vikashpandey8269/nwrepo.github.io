@@ -1,6 +1,6 @@
 # Digital Clock Project - HTML, CSS, JavaScript
 
-## link :-
+## link :-https://vikashpandey8269.github.io/nwrepo.github.io/day-14-ass/index.html
 
 ### Project description
 
