@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link href="movie.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://i.pinimg.com/736x/ea/8d/11/ea8d11f1ffc6355b8a440106ce61d0f3.jpg" alt="" width="100px" height="auto">
+
+    </div>
+    <div class="homebutton">
+      <a id="home" class="navbar-item mr-4 is-size-4 is-family-sans-serif" href="movie.html">
+        Home
+      </a>
+
+    </div>
+    <div class="searchContainer field is-grouped container ">
+      <div class="control is-expanded">
+        <input
+          class="input is-large dropdown"
+          type="text"
+          placeholder="Search"/>
+      </div>
+      <div class="control is-align-self-center">
+        <a
+          id="search-btn"
+          class="button is-info is-large is-family-sans-serif">
+          Search
+        </a>
+      </div>
+
+  </nav>
+  
+
+  <div class="columns">
+    <div class="column is-one-quarter m-5">
+      <div class="image is-150x250px">
+        <img id="poster" />
+      </div>
+    </div>
+    <div class="column is-family-sans-serif has-text-black m-5">
+      <h1 id="title" class="title mb-6 is-size-1"></h1>
+      <h2 class="subtitle has-text-weight-bold">Starring:</h2>
+      <div id="cast-section" class="is-flex is-flex-wrap-wrap is-justify-content-space-evenly">
+      </div>
+      <br />
+      <h2 class="subtitle has-text-weight-bold">Storyline:</h2>
+      <p id="storyline" class="is-size-4"></p>
+      </p>
+    </div>
+  </div>
+  <h2 id="more-movies" class="subtitle has-text-weight-bold ml-5">More movies like this:</h2>
+  <div class="recommendations is-flex is-flex-wrap-wrap is-justify-content-center">
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

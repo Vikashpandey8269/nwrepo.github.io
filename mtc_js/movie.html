@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link href="movie.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+  <nav>
+    <div class="logo">
+      <img src="https://i.pinimg.com/736x/ea/8d/11/ea8d11f1ffc6355b8a440106ce61d0f3.jpg" alt="" width="100px" height="auto">
+
+    </div>
+    <div class="homebutton">
+      <a id="home" class="navbar-item mr-4 is-size-4 is-family-sans-serif" href="movie.html">
+        Home
+      </a>
+
+    </div>
+    <div class="searchContainer field is-grouped container ">
+      <div class="control is-expanded">
+        <input
+          class="input is-large dropdown"
+          type="text"
+          placeholder="Search"/>
+      </div>
+      <div class="control is-align-self-center">
+        <a
+          id="search-btn"
+          class="button is-info is-large is-family-sans-serif">
+          Search
+        </a>
+      </div>
+
+  </nav>
+   
+    <section class="container mt-6 mb-5">
+      
+      
+        <div id="not-found"></div>
+      </div>
+    </section>
+    <div id="search-history" class="container"></div>
+    <div id="searched-title"></div>
+    <div
+      id="searched"
+      class="is-flex is-flex-wrap-wrap is-justify-content-center">
+    </div>
+
+    <div class="popular">
+      <h1
+
+        id="trending" class="is-size-1 has-text-weight-bold is-family-sans-serif ml-6">
+
+        Trending
+      </h1>
+      <div
+        class="is-flex is-flex-wrap-wrap is-justify-content-center"
+        id="popular-container">
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous">
+    </script>
+    <script src="movie.js"></script>
+  
+  </body>
+</html>
